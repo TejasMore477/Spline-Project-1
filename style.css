@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: #28120b;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: none;
+}
+
+#follower {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 140, 0);
+    z-index: 9999;
+    position: absolute;
+    pointer-events: none; /* Prevent interaction with the follower */
+    transform: translate(-50%, -50%); /* Center the follower */
+}
+
+.child {
+    background-color: black;
+    height:60%;
+    width: 60%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.LandingPg {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.absolute {
+    position: absolute; 
+    width: 100vw;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 3vw;
+    color: white;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
