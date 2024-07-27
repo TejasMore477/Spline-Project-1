@@ -29,7 +29,7 @@ html, body {
 
 .child {
     background-color: #28120b;
-    height:90%;
+    height: 90%;
     width: 90%;
     border-radius: 50%;
     position: absolute;
@@ -64,4 +64,45 @@ h3 {
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+}
+
+spline-viewer {
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 4vw 3vw;
+    }
+
+    .links {
+        gap: 1rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    spline-viewer {
+        height: calc(100% - 80px);
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+
+    .navbar {
+        padding: 6vw 3vw;
+    }
+
+    spline-viewer {
+        height: calc(100% - 100px);
+    }
 }
