@@ -28,9 +28,9 @@ html, body {
 }
 
 .child {
-    background-color: black;
-    height:60%;
-    width: 60%;
+    background-color: #28120b;
+    height:90%;
+    width: 90%;
     border-radius: 50%;
     position: absolute;
 }
